@@ -21,9 +21,9 @@ function Header(props) {
                 </form>
             </div>
             <div id="header_full" className="d-flex flex-column align-items-center">
-                <img id="self_img" src={avtar} width={175} alt="Het Patel" />
-                <h2 className="pt-3">Hello, There!</h2>
-                <h5 className="text-center border-bottom pb-3">I'm Het Patel</h5>
+                <img id="self_img" src={avtar} width={200} alt="Het Patel" />
+                <h1 className="pt-3">Hello, There!</h1>
+                <h4 className="text-center border-bottom pb-3">I'm Het Patel</h4>
                 <p>Web Developer</p>
                 <p>I design and build User Interfaces</p>
                 {/* </div>
