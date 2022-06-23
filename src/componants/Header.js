@@ -46,7 +46,7 @@ function Header() {
                     </div>
                 </a>
             </div>
-            <div className="navbarC m-4">
+            <div className="navbarC my-4">
                 <Navbar id="menu" bg="light">
                     {/* <Container> */}
                     {/* <Navbar.Brand as={Link} to={'/'} className='ms-2'>
