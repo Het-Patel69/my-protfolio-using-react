@@ -9,7 +9,7 @@ import github from "../Icons/github.png"
 
 function Header() {
     return (
-        <div>
+        <div style={height="100vh"}>
             {/* <div id="darkmode">
                 <form>
                     <Form.Check
