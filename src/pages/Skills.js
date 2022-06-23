@@ -1,4 +1,9 @@
 import React from "react";
+import { Card } from "react-bootstrap"
+import python_cert from "../certificates/python.jpg"
+import java_cert from "../certificates/java.jpg"
+import linux_cert from "../certificates/linux.jpg"
+import codejam_cert from "../certificates/codejam.jpg"
 
 function Experience() {
     return (
@@ -29,7 +34,7 @@ function Experience() {
                             <div className="col-md-6 my-3">
                                 <p className="mb-0">REACTJS</p>
                                 <div className="progress">
-                                    <div className="progress-bar" role="progressbar" style={{ width: "40%"}} >40%</div>
+                                    <div className="progress-bar" role="progressbar" style={{ width: "40%" }} >40%</div>
                                 </div>
                             </div>
                             <div className="col-md-6 my-3">
@@ -62,6 +67,51 @@ function Experience() {
                                 Quick Learner
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div>
+                    <h4>Certificates :</h4>
+                    <div id="cert" className="d-flex flex-wrap">
+                        <Card className="m-3" style={{ width: '18rem' }}>
+                            <Card.Img variant="top" src={python_cert} />
+                            <Card.Body>
+                                {/* <Card.Title>Card Title</Card.Title> */}
+                                <Card.Text>
+                                    Certificate for Completion of Python 3.4.3 Training by Spoken Tutorial Project at IIT Bombay
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                        <Card className="m-3" style={{ width: '18rem' }}>
+                            <Card.Img variant="top" src={java_cert} />
+                            <Card.Body>
+                                {/* <Card.Title>Card Title</Card.Title> */}
+                                <Card.Text>
+                                    Certificate for Completion of Java Training by Spoken Tutorial
+                                    Project
+                                    at
+                                    IIT Bombay
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                        <Card className="m-3" style={{ width: '18rem' }}>
+                            <Card.Img variant="top" src={linux_cert} />
+                            <Card.Body>
+                                {/* <Card.Title>Card Title</Card.Title> */}
+                                <Card.Text>
+                                    Certificate for Completion of
+                                    Linux Training by Spoken Tutorial Project at IIT Bombay
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                        <Card className="m-3" style={{ width: '18rem' }}>
+                            <Card.Img variant="top" src={codejam_cert} />
+                            <Card.Body>
+                                {/* <Card.Title>Card Title</Card.Title> */}
+                                <Card.Text>
+                                    Certificate for for progressing to Round 1 of Code Jam 2022
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
                     </div>
                 </div>
             </div>

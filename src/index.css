@@ -103,3 +103,6 @@ p{
   border-color: #2596be;
   border-radius: 10px;
 }
+#cert .card{
+  padding: 10px;
+}
