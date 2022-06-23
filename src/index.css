@@ -14,8 +14,24 @@ body {
   right: 1rem;
   top: 1rem;
 }
+#inner_about{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+#inner_about p{
+  margin: 5px;
+}
+#inner_about>div>div{
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #2596be;
+  border-radius: 10px
+}
 #header_full{
   height: 100vh;
+  justify-content: center;
 }
 #self_img{
   border-radius: 100px;
