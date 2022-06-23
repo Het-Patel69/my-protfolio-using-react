@@ -17,6 +17,9 @@ body {
 .form-switch .form-check-input{
   border-radius: 1em;
 }
+#about_me{
+  text-align: justify;
+}
 #inner_about{
   display: flex;
   flex-direction: row;
