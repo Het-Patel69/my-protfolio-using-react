@@ -20,7 +20,7 @@ function Header() {
                     />
                 </form>
             </div> */}
-            <div className="pt-5 d-flex flex-column align-items-center"  style={height="100vh"}>
+            <div className="pt-5 d-flex flex-column align-items-center justify-content-center"  style={height="100vh"}>
                 <img id="self_img" src={avtar} width={175} alt="Het Patel" />
                 <h2 className="pt-3">Hello, There!</h2>
                 <h5 className="text-center border-bottom pb-3">I'm Het Patel</h5>
