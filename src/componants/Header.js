@@ -2,24 +2,24 @@ import { Container, Nav, Navbar, NavDropdown, Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
 // import logo from '../image/logo.jpg';
 import avtar from "../image/self.jpeg";
-import insta from "../Icons/instagram.png"
-import twitter from "../Icons/twitter.png"
-import reddit from "../Icons/reddit.png"
-import github from "../Icons/github.png"
+import insta from "../Icons/instagram.png";
+import twitter from "../Icons/twitter.png";
+import reddit from "../Icons/reddit.png";
+import github from "../Icons/github.png";
 
-function Header() {
+function Header(props) {
     return (
-        <div>
-            {/* <div id="darkmode">
+        <div className={`${props.mode}`}>
+            <div id="darkmode">
                 <form>
                     <Form.Check
                         type="switch"
                         id="custom-switch"
                         label="Dark-Mode"
-                        onClick={changemode}
+                        onClick={props.toggleMode}
                     />
                 </form>
-            </div> */}
+            </div>
             <div id="header_full" className="d-flex flex-column align-items-center">
                 <img id="self_img" src={avtar} width={175} alt="Het Patel" />
                 <h2 className="pt-3">Hello, There!</h2>
@@ -46,8 +46,8 @@ function Header() {
                     </div>
                 </a>
             </div>
-            <div className="navbarC my-4">
-                <Navbar id="menu" bg="light">
+            <div className="navbarC mt-4 pb-4">
+                <Navbar id="menu"  bg={props.mode} variant={props.mode}>
                     {/* <Container> */}
                     {/* <Navbar.Brand as={Link} to={'/'} className='ms-2'>
                     <img src={logo} width={25} alt="logo" />Het Patel

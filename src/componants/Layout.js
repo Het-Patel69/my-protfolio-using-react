@@ -2,13 +2,14 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 import Footer from "./Footer";
 import Header from "./Header";
+import { useState } from 'react'
 
-function Layout() {
+function Layout(props) {
     return (
         <React.Fragment>
-            <Header />
-            <Outlet />
-            <Footer />
+            <Header mode={props.mode} toggleMode={props.toggleMode}/>
+            <Outlet mode={props.mode}/>
+            <Footer mode={props.mode}/>
         </React.Fragment>
     );
 }

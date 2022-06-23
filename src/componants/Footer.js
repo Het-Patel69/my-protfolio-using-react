@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import { Dropdown, Form, Button, FloatingLabel } from "react-bootstrap"
-function Footer() {
+function Footer(props) {
     return (
-        <div className="container-fluid bg-light p-3">
+        <div className={`container-fluid bg-${props.mode} p-3 ${props.mode}`}>
             <div id="form">
                 <Dropdown>
                     <div className="d-flex justify-content-center">

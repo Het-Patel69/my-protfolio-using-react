@@ -14,6 +14,9 @@ body {
   right: 1rem;
   top: 1rem;
 }
+.form-switch .form-check-input{
+  border-radius: 1em;
+}
 #inner_about{
   display: flex;
   flex-direction: row;
