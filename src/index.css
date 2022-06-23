@@ -13,9 +13,10 @@ body {
   position: absolute;
   right: 1rem;
   top: 1rem;
-
 }
-
+#header_full{
+  height: 100vh;
+}
 #self_img{
   border-radius: 100px;
 }
