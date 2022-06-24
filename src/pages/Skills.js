@@ -71,7 +71,7 @@ function Skills(props) {
                 </div>
                 <div>
                     <h4>Certificates :</h4>
-                    <div id="cert" className="d-flex flex-wrap">
+                    <div id="cert" className="d-flex flex-wrap justify-content-center">
                         <Card className="m-3" style={{ width: '18rem' }}>
                             <Card.Img variant="top" src={python_cert} />
                             <Card.Body>
