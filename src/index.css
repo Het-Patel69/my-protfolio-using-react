@@ -43,14 +43,29 @@ body {
   border-radius: 100px;
 }
 #arrow{
-  height: 2rem;
-  width: 2rem;
+  height: 2.5rem;
+  width: 2.5rem;
   transform: rotate(45deg);
   border: 1px solid #2596be;
   border-top: 0px;
   border-left: 0px;
   position: relative;
+  animation-name: bounce;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
 }
+@keyframes bounce {
+  0%{
+    top: 0rem;
+  }
+  50%{
+    top: 1rem;
+  }
+  100%{
+    top: 0rem;
+  }
+}
+
 #menu a{
   text-decoration: none;
   color: hsl(0, 0%, 45%);
