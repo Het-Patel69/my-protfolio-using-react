@@ -1,9 +1,9 @@
 import React from "react";
 
-function Education() {
+function Education(props) {
     return (
         <React.Fragment>
-            <div className="min-h-screen">
+            <div className={`min-h-screen ${props.mode}`}>
                 <div className="container py-5">
                     <h1 className="text-center mb-3">Education</h1>
                     <div className="row">

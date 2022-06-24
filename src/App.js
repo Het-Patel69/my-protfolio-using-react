@@ -23,9 +23,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout mode={mode} toggleMode={toggleMode}/>}>
           <Route path="/" element={<Home mode={mode}/>} />
-          <Route path="/experience" element={<Experience />} />
-          <Route path="/education" element={<Education />} />
-          <Route path="/Skills" element={<Skills />} />
+          <Route path="/experience" element={<Experience mode={mode} />} />
+          <Route path="/education" element={<Education mode={mode} />} />
+          <Route path="/Skills" element={<Skills mode={mode}/>} />
           <Route path="/About" element={<About />} />
         </Route>
       </Routes>

@@ -4,6 +4,9 @@
 }
 
 .dark{
-    color: white;
+    color: white!important;
+    background-color: #212529!important;
+}
+.dark .card{
     background-color: #212529;
 }

@@ -5,11 +5,11 @@ import java_cert from "../certificates/java.jpg"
 import linux_cert from "../certificates/linux.jpg"
 import codejam_cert from "../certificates/codejam.jpg"
 
-function Experience() {
+function Skills(props) {
     return (
         <React.Fragment>
-            <div className="min-h-screen container-fluid">
-                <div className="card my-3">
+            <div className={`min-h-screen container-fluid ${props.mode}`}>
+                <div className="card pt-2">
                     <div className="card-body">
                         <h5 className="card-title fw-bold pb-3">Technical Skills</h5>
                         <div className="row">
@@ -119,4 +119,4 @@ function Experience() {
     );
 }
 
-export default Experience;
+export default Skills;

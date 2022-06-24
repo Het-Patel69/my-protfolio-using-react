@@ -1,9 +1,9 @@
 import React from "react";
 
-function Experience() {
+function Experience(props) {
     return (
         <React.Fragment>
-            <div className="min-h-screen">
+            <div className={`min-h-screen ${props.mode}`}>
                 <div className="container py-5">
                     <h1 className="text-center mb-5">Experience</h1>
                     <div className="row">
