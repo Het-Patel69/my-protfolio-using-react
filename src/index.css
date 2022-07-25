@@ -29,11 +29,19 @@ body {
 #inner_about p{
   margin: 5px;
 }
-#inner_about>div>div{
+#inner_about>div>div, #projects>div{
   margin: 10px;
   padding: 10px;
   border: 1px solid #2596be;
   border-radius: 10px
+}
+#projects{
+  display: flex;
+  flex-wrap: wrap;
+}
+#projects>div>a{
+  text-decoration: none;
+  color: inherit;
 }
 #header_full{
   height: 100vh;
@@ -126,4 +134,8 @@ p{
 }
 #cert .card{
   padding: 10px;
+}
+footer p a{
+  text-decoration: none;
+  color: inherit;
 }

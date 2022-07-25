@@ -44,6 +44,26 @@ function Home(props) {
                         </div>
                     </div>
                 </div>
+                <div className="my4">
+                    <h4>Projects :</h4>
+                    <div id="projects">
+                        <div>
+                            <a href="https://fyph7j.csb.app" target='_blank'>
+                                My Personal Portfolio using Bootstrap
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://het-patel.netlify.app" target='_blank'>
+                                My Personal Portfolio using React.js
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://hpin3d.netlify.app" target='_blank'>
+                                My first Three.js project
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );
