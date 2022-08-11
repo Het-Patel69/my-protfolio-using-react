@@ -1,4 +1,4 @@
-project is live at https/het-patel.netlify.app
+project is live at https://het-patel.netlify.app
 
 # Getting Started with Create React App
 
