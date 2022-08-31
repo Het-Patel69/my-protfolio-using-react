@@ -38,8 +38,7 @@ function Home(props) {
                         <div>
                             Address :
                             <div>
-                                K-103, Samruddh Greens residency, Pranaminagar, Vastral,
-                                Ahmedabad
+                                Vastral, Ahmedabad
                             </div>
                         </div>
                     </div>
@@ -47,6 +46,11 @@ function Home(props) {
                 <div className="my4">
                     <h4>Projects :</h4>
                     <div id="projects">
+                        <div>
+                            <a href="https://het-sneakerstore.netlify.app" target='_blank'>
+                                Online Sneaker store
+                            </a>
+                        </div>
                         <div>
                             <a href="https://fyph7j.csb.app" target='_blank'>
                                 My Personal Portfolio using Bootstrap
