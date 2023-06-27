@@ -10,9 +10,27 @@ function Experience(props) {
                         <div className="col-md-6 offset-md-3">
                             <div className="card mb-5">
                                 <div className="card-body">
+                                    <h5 className="card-title fw-bold">Intern <span className="h6">at  Praxware Technologies</span></h5>
+                                    <p className="mb-0">Jan 2023 · 1 mo</p>
+                                    <small>I worked as an intern at Praxware Technologies for
+                                        one month in android application development.
+                                        Worked on a live project and learned about native
+                                        android application development with android
+                                        studio.</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-md-6 offset-md-3">
+                            <div className="card mb-5">
+                                <div className="card-body">
                                     <h5 className="card-title fw-bold">Intern <span className="h6">at Coding Gujju</span></h5>
-                                    <p className="mb-0">6 June 2022 - 26 June 2022</p>
-                                    <small>I've worked as an intern at Coding Gujju in Web Development and worked in technologies like HTML, CSS, Bootstrap, Javascript, jQuery and React.js</small>
+                                    <p className="mb-0">June 2022 · 1 mo</p>
+                                    <small>I worked as an intern at Coding gujju for one
+                                        month in web development.
+                                        Learned basics of web development, Node.js and
+                                        React.js</small>
                                 </div>
                             </div>
                         </div>

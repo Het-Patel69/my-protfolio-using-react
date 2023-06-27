@@ -1,15 +1,15 @@
 import React from "react";
-import { Card } from "react-bootstrap"
-import python_cert from "../certificates/python.jpg"
-import java_cert from "../certificates/java.jpg"
-import linux_cert from "../certificates/linux.jpg"
-import codejam_cert from "../certificates/codejam.jpg"
+import { Card } from "react-bootstrap";
+import python_cert from "../certificates/python.jpg";
+import java_cert from "../certificates/java.jpg";
+import linux_cert from "../certificates/linux.jpg";
+import codejam_cert from "../certificates/codejam.jpg";
 
 function Skills(props) {
     return (
         <React.Fragment>
             <div className={`min-h-screen container-fluid ${props.mode}`}>
-                <div className="card pt-2">
+                {/* <div className="card pt-2">
                     <div className="card-body">
                         <h5 className="card-title fw-bold pb-3">Technical Skills</h5>
                         <div className="row">
@@ -51,6 +51,25 @@ function Skills(props) {
                             </div>
                         </div>
                     </div>
+                </div> */}
+                <div className="card my-3">
+                    <div className="card-body">
+                        <h5 className="card-title fw-bold pb-3">Technical Skills</h5>
+                        <div id="soft_skills" className="container-fluid d-flex flex-wrap">
+                            <div className="m-2">
+                                Web FrontEnd :- HTML | CSS | JavaScript | React.js | jQuery
+                            </div>
+                            <div className="m-2">
+                                Web BackEnd :- Node.js | php | sql
+                            </div>
+                            <div className="m-2">
+                                Programmin languages :- Java | Python | C | Kotlin | JavaScript | php
+                            </div>
+                            <div className="m-2">
+                                Native Android Application Development
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div className="card my-3">
                     <div className="card-body">
@@ -61,57 +80,15 @@ function Skills(props) {
                                 global rank under 4500
                             </div>
                             <div className="m-2">
-                                Work Ethic
+                                Adaptability
                             </div>
                             <div className="m-2">
-                                Quick Learner
+                                Creativity
+                            </div>
+                            <div className="m-2">
+                                Teamwork
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div>
-                    <h4>Certificates :</h4>
-                    <div id="cert" className="d-flex flex-wrap justify-content-center">
-                        <Card className="m-3" style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src={python_cert} />
-                            <Card.Body>
-                                {/* <Card.Title>Card Title</Card.Title> */}
-                                <Card.Text>
-                                    Certificate for Completion of Python 3.4.3 Training by Spoken Tutorial Project at IIT Bombay
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                        <Card className="m-3" style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src={java_cert} />
-                            <Card.Body>
-                                {/* <Card.Title>Card Title</Card.Title> */}
-                                <Card.Text>
-                                    Certificate for Completion of Java Training by Spoken Tutorial
-                                    Project
-                                    at
-                                    IIT Bombay
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                        <Card className="m-3" style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src={linux_cert} />
-                            <Card.Body>
-                                {/* <Card.Title>Card Title</Card.Title> */}
-                                <Card.Text>
-                                    Certificate for Completion of
-                                    Linux Training by Spoken Tutorial Project at IIT Bombay
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                        <Card className="m-3" style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src={codejam_cert} />
-                            <Card.Body>
-                                {/* <Card.Title>Card Title</Card.Title> */}
-                                <Card.Text>
-                                    Certificate for for progressing to Round 1 of Code Jam 2022
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
                     </div>
                 </div>
             </div>

@@ -7,7 +7,17 @@ function Home(props) {
             <div className="container">
                 <div className="pt-4 mb-4">
                     <h4>About Me :</h4>
-                    <p id="about_me">Hello! I'm Het Patel, I'm an intern at codding gujju and currently pursuing B.Tech from Silver Oak University, Ahmedabad. I'm a tech nerd so naturally I love to know and discuss about letest technologies used in smartphones and computers. I have a good knowledge of HTML, CSS and Java Script and I'm constatantly trying to improve and gain more knowledge.</p>
+                    <p id="about_me">Experienced and versatile student skilled in
+                        web development, specializing in React.js
+                        and Android application development.
+                        Passionate about creating visually
+                        appealing websites and feature-rich mobile
+                        apps. Proactive learner and problem-solver
+                        who thrives in collaborative environments.
+                        Open to new opportunities and eager to
+                        drive innovation in web and mobile
+                        development.
+                    </p>
                 </div>
                 <div className="my-4">
                     <h4>Personal Information :</h4>
@@ -41,18 +51,8 @@ function Home(props) {
                     <h4>Projects :</h4>
                     <div id="projects">
                         <div>
-                            <a href="https://het-memegenerator.netlify.app" target='_blank'>
-                                Meme Generator
-                            </a>
-                        </div>
-                        <div>
-                            <a href="https://het-sneakerstore.netlify.app" target='_blank'>
-                                Online Sneaker store
-                            </a>
-                        </div>
-                        <div>
-                            <a href="https://hpin3d.netlify.app" target='_blank'>
-                                My first Three.js project
+                            <a href="https://het-patel69.github.io/my-projects/">
+                                Click to see all Projects
                             </a>
                         </div>
                     </div>
